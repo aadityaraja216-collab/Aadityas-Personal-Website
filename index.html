@@ -1,27 +1,78 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Aaditya's Website</title>
-    <link rel="stylesheet" href="styles.min.css" />
-  </head>
-  <body>
-    <nav class="navbar">
-      <h1 class="logo">
-        <a href="index.html">Aaditya Raja</a>
-      </h1>
-      <ul class="nav-list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="https://www.linkedin.com/in/aaditya-raja-121954357" target="_blank" rel="noreferrer">LinkedIn</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-    <main>
-      <h1 class="page-title">Aaditya Raja</h1>
-      <p>Student.</p>
-    </main>
-    <footer class="footer">
-      © 2026 Aaditya's Personal Website | All Rights Reserved
-    </footer>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Aaditya Raja, Statistics student at Cal Poly San Luis Obispo. Explore projects in healthcare data analysis, Python automation, AI, and consumer research." />
+  <title>Aaditya Raja | Statistics &amp; Data Science</title>
+  <link rel="stylesheet" href="styles.min.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <nav class="navbar" aria-label="Main navigation">
+    <a class="logo" href="index.html">Aaditya Raja</a>
+    <ul class="nav-list">
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="assets/Aaditya_Raja_Resume.pdf">Resume</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <main id="main" class="portfolio">
+    <header class="hero">
+      <p class="eyebrow">CAL POLY SAN LUIS OBISPO</p>
+      <h1>Hi, I'm Aaditya.</h1>
+      <p class="intro">Statistics student exploring how data and code can help answer real-world questions.</p>
+      <p class="about-text">I'm a freshman pursuing a B.S. in Statistics, with interests in data science, artificial intelligence, and research. My projects include healthcare data analysis, Python API automation, educational chatbots, and research on online buying behavior.</p>
+      <div class="links">
+        <a class="button" href="assets/Aaditya_Raja_Resume.pdf">View my resume <span aria-hidden="true">↗</span></a>
+        <a href="https://github.com/aadityaraja216-collab">GitHub <span aria-hidden="true">↗</span></a>
+        <a href="https://www.linkedin.com/in/aaditya-raja-121954357">LinkedIn <span aria-hidden="true">↗</span></a>
+      </div>
+    </header>
+    <section id="projects" aria-labelledby="projects-heading">
+      <div class="section-heading"><h2 id="projects-heading">Research &amp; projects</h2><p>A few things I've worked on.</p></div>
+      <div class="project-grid">
+        <article class="project-card">
+          <p class="project-category">HEALTHCARE DATA · 2024</p>
+          <h3>WiDS Datathon</h3>
+          <p>Explored relationships between income and medical insurance costs using Python. Cleaned data, performed exploratory analysis, created visualizations, and presented findings to peers and instructors.</p>
+          <p class="tags">Python · Data cleaning · Data visualization</p>
+        </article>
+        <article class="project-card">
+          <p class="project-category">INDEPENDENT RESEARCH</p>
+          <h3>Amazon.com buying trends</h3>
+          <p>Authored <em>Timing the Click: How Time of Day Shapes Online Consumer Behavior</em>. Reviewed 20+ sources to examine time-of-day purchasing patterns, including deliberate morning purchases and impulsive evening buying.</p>
+          <p class="tags">Literature review · Research writing</p>
+        </article>
+        <article class="project-card">
+          <p class="project-category">SOFTWARE PROJECT</p>
+          <h3>Python API automation</h3>
+          <p>Built a multi-file Python application that retrieves and processes real-time data from external APIs, with authentication, JSON handling, configurable parameters, automated decision logic, and logging.</p>
+          <p class="tags">Python · APIs · JSON · Git</p>
+        </article>
+        <article class="project-card">
+          <p class="project-category">INSPIRIT AI</p>
+          <h3>AI chatbots for education</h3>
+          <p>Completed a collaborative project exploring educational chatbot applications. Applied programming and AI concepts to investigate how technology can support learning.</p>
+          <p class="tags">Python · Artificial intelligence · Collaboration</p>
+        </article>
+      </div>
+    </section>
+    <section class="skills-section" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">What I'm learning &amp; using</h2>
+      <dl class="skills">
+        <div><dt>Languages</dt><dd>Python, R, Java</dd></div>
+        <div><dt>Data &amp; statistics</dt><dd>Data cleaning, exploratory data analysis, visualization, statistical analysis</dd></div>
+        <div><dt>Tools</dt><dd>Git, GitHub, RStudio, JMP, VS Code</dd></div>
+      </dl>
+      <p class="coursework"><strong>Current coursework:</strong> Statistics I, Intro to Statistical Computing with R, and Calculus for Data Science II.</p>
+    </section>
+    <section class="contact-section" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Let's connect.</h2>
+      <p>I'm interested in opportunities to learn, build, and contribute to data-driven projects.</p>
+      <a href="mailto:aadityaraja216@gmail.com">aadityaraja216@gmail.com <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+  <footer class="footer">© 2026 Aaditya Raja</footer>
+</body>
 </html>

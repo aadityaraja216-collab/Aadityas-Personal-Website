@@ -1,0 +1,1 @@
+Upload the extracted files to the root of Aadityas-Personal-Website, keeping the assets folder. Replace the existing files and commit the changes. GitHub Pages will publish the updated site.
